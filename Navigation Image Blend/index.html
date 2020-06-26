@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Image Blend</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="header">
+       <div class="navigation">
+           <a href="#">Home</a>
+           <a href="#">About</a>
+           <a href="#">Work</a>
+           <a href="#">Contacts</a>
+       </div>
+   </div> 
+
+   <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, aut corporis vero quos totam dolores! Suscipit ipsam nesciunt numquam ullam, aliquid eaque voluptatum officiis unde minus reprehenderit quo iusto tempora magnam nostrum temporibus ea quia mollitia? Ratione libero minima error aut cupiditate ullam magni perferendis sapiente laudantium nesciunt officia minus neque vel, corrupti at quasi dolores dolore laboriosam quo voluptas saepe illo obcaecati blanditiis recusandae. Maiores doloremque dolores quam ullam, perferendis cum! Sequi recusandae praesentium sed ipsa quis delectus non, eligendi maiores, voluptate numquam illo vero perspiciatis voluptatem laudantium cum. Quaerat minus explicabo amet magni quae odio neque sed asperiores animi deserunt rerum illo, eum quibusdam, mollitia corporis necessitatibus? Quia blanditiis unde aliquam nisi temporibus quidem minus cupiditate in accusantium nesciunt perspiciatis nulla dolores, laborum qui nihil animi culpa, saepe ipsum optio mollitia! Animi illo temporibus soluta, autem est sint nisi ipsa exercitationem voluptatum quae dolores dignissimos asperiores possimus quidem quaerat! Enim culpa recusandae voluptatum facilis maiores sint facere est officia eum similique iusto voluptates commodi nemo quidem, placeat provident. Laudantium sapiente provident atque et, libero totam quo optio nihil modi natus reprehenderit inventore impedit est similique sit aut mollitia nostrum sed aliquam ex quod possimus! Unde, quis veniam. Molestias temporibus optio obcaecati et esse, architecto ratione amet recusandae nihil illum harum. Corrupti, omnis? Repellat quos quidem consequatur aliquam facilis doloremque ipsa iusto. Repellendus similique veritatis exercitationem dolore cupiditate recusandae cum, fugiat aspernatur ea maxime reprehenderit laborum provident ipsum modi eaque obcaecati eveniet laboriosam aliquid adipisci. Dolorem tenetur necessitatibus illum molestiae iste architecto iure nisi fugiat aliquid exercitationem est rerum tempora numquam, deleniti maxime vel ea soluta optio veritatis aliquam facilis. Excepturi distinctio temporibus aliquam reiciendis accusamus officia cum fuga, laborum voluptate quod obcaecati reprehenderit? Vero dolore in eveniet saepe odit quisquam quod quam. Quisquam at quaerat odit placeat hic voluptas soluta quos ab possimus laborum dolorem, atque adipisci maiores fuga harum nisi ipsa corporis praesentium aperiam illum dolorum? Deserunt nihil at iste dolore sed in vero itaque consectetur ullam rem ratione mollitia a fuga recusandae ipsa veniam tenetur optio inventore repellat autem omnis, aliquid, quasi odit et? Consectetur quibusdam impedit deserunt ipsam unde molestiae quis et neque enim, laborum minima temporibus ad expedita blanditiis cumque officiis tempore dicta voluptas provident fugit tenetur dignissimos? Veritatis recusandae commodi et assumenda numquam cum illo pariatur voluptas doloremque repellat molestiae reprehenderit hic inventore dolores dolorem nostrum velit consequuntur, odio sed soluta rerum necessitatibus quo officiis maxime. Unde adipisci consectetur voluptatum officiis suscipit velit pariatur nulla nobis. Recusandae explicabo illum at possimus dolore. In repudiandae adipisci ducimus nihil rerum dolorum assumenda minus, aperiam doloribus nulla, minima fugit laborum beatae natus quas deleniti quos? Commodi repudiandae ea esse, nisi velit eaque quidem accusantium autem maiores odio accusamus vitae dolorum laborum earum illum. Sapiente, voluptatum totam ratione magni, odit cumque sed iste fuga, atque nihil tempora incidunt culpa optio pariatur illo. Sunt consequatur nam error voluptatum fugiat in saepe, repudiandae accusantium harum debitis explicabo perspiciatis, qui est doloremque dolores animi alias culpa nobis, inventore ex aut.</p>
+   <script>
+       var nav = document.getElementsByClassName("navigation");
+
+       window.onscroll = function sticky() {
+           if(window.pageYOffset > nav[0].offsetTop) {
+               nav[0].classList.add("nav");
+           } else {
+               nav[0].classList.remove("nav");
+           }
+       }
+   </script>
+</body>
+</html>
